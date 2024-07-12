@@ -1,6 +1,14 @@
 import streamlit as st
 
-st.title("🎈 My new app")
+st.title("🎈 Web Penghitung Alas Segitiga")
 st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+    "Test doang Njir,arelnya lagi gabut"
 )
+
+alas = st.number_input("Masukan Alas", 0 cm)
+tinggi = st.number_input("Masukan Tinggi", 0 cm)
+hitung = st.button("Hitung Luas")
+
+if hitung:
+    luas = 0.5 * alas * tinggi
+    st.write("Luas Segitiganya Adalah", luas)
