@@ -5,8 +5,8 @@ st.write(
     "Test doang Njir,arelnya lagi gabut"
 )
 
-alas = st.number_input("Masukan Alas", 0 cm)
-tinggi = st.number_input("Masukan Tinggi", 0 cm)
+alas = st.number_input("Masukan Alas", 0)
+tinggi = st.number_input("Masukan Tinggi", 0)
 hitung = st.button("Hitung Luas")
 
 if hitung:
