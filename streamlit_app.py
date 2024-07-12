@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("🎈 Web Penghitung Alas Segitiga")
+st.title("⚙️ Tools Penghitung Luas Segitiga")
 st.write(
     "Test doang Njir,arelnya lagi gabut"
 )
@@ -8,13 +8,13 @@ st.write(
 alas = st.number_input("Masukan Alas", 0)
 tinggi = st.number_input("Masukan Tinggi", 0)
 hitung = st.button("Hitung Luas")
-
 if hitung:
-    luas = 0.5 * alas * tinggi
+    luas = 0.5 * alas * tingg
     st.success(f"Luas Segitiganya Adalah {luas}")
     st.balloons()
 
-st.write('Aplikasi ini menghitung tekanan hidrostatis di dalam fluida.')
+st.title("⚙️ Tools Penghitung Tekanan Hidrostatis")
+st.write("Aku males ngitung")
 
 h = st.number_input('Kedalaman Fluida (meter)', min_value=0.0, step=0.1, format="%.2f")
 rho = st.number_input('Massa Jenis Fluida (kg/m^3)', min_value=0.0, step=1.0, format="%.1f")
