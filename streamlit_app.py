@@ -11,4 +11,5 @@ hitung = st.button("Hitung Luas")
 
 if hitung:
     luas = 0.5 * alas * tinggi
-    st.write("Luas Segitiganya Adalah", luas)
+    st.succes(f"Luas Segitiganya Adalah {luas}")
+    st.ballons()
