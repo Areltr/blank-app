@@ -30,7 +30,7 @@ st.write("Aku males ngitung")
 
 p = st.number_input('Tekanan Hidrostatis', min_value=0.0, step=0.1, format="%.2f")
 kerapatan = st.number_input('Kerapatan Fluida (kg/m^3)', min_value=0.0, step=1.0, format="%.1f")
-g1 = st.number_input('Percepatan Gravitasi (m/s^2)', min_value=0.0, step=1.0, format="%.1f", value=9.81)
+g1 = st.number_input('Percepatan gravitasi (m/s^2)', min_value=0.0, step=1.0, format="%.1f", value=9.81)
 hitungh = st.button("Hitung Kedalaman")
 
 if hitungh:
