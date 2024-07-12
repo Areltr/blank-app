@@ -25,3 +25,15 @@ if hitungtekanan:
     tekanan = rho * g * h
     st.write(f'Tekanan Hidrostatis = {tekanan:.2f} Pascal')
 
+st.title("⚙️ Tools Mencari kedalaman Tekanan Hidrostatis")
+st.write("Aku males ngitung")
+
+p = st.number_input('Tekanan Hidrostatis', min_value=0.0, step=0.1, format="%.2f")
+kerapatan = st.number_input('Kerapatan Fluida (kg/m^3)', min_value=0.0, step=1.0, format="%.1f")
+g = st.number_input('Percepatan Gravitasi (m/s^2)', min_value=0.0, step=1.0, format="%.1f", value=9.81)
+hitungh = st.button("Hitung Kedalaman")
+
+if hitungh:
+    tekanan = p / (kerapatan * g)
+    st.write(f'Kedalaman Fluida = {tekanan:.2f} ')
+
