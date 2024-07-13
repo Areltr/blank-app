@@ -36,5 +36,10 @@ hitungh = st.button("Hitung Kedalaman")
 if hitungh:
     tekanan = p / (kerapatan * g1)
     st.write(f'Kedalaman Fluida = {tekanan:.2f} ')
+
+st.set_page_config(
+    page_title = "amentik"
+    page_icon = "⚙️"
+    )
 st.sidebar.success("test")
 
