@@ -42,7 +42,7 @@ st.set_page_config(
     page_icon="⚙️",
 )
 st.sidebar.success("test")
-
+st.title("pp")
 hide_st_style = """
             <style>
             #MainMenu {visibility: hidden;}
