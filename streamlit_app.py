@@ -38,7 +38,8 @@ if hitungh:
     st.write(f'Kedalaman Fluida = {tekanan:.2f} ')
 
 st.set_page_config(
-    page_title = "apalah"
+    page_title="apalah",
+    page_icon="⚙️",
 )
 st.sidebar.success("test")
 
