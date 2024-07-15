@@ -39,10 +39,10 @@ def main():
 
     st.write("""
     Masukkan cryptarithm yang ingin Anda selesaikan. Misalnya:
-    - SEND + MORE = MONEY
-    - NINE - FIVE = FOUR
-    - CROSS * ROADS = DANGER
-    - TWENTY / FOUR = FIVE
+    - PENAMBAHAN  : SEND + MORE = MONEY
+    - PENGURANGAN : NINE - FIVE = FOUR
+    - PERKALIAN   : CROSS * ROADS = DANGER
+    - PEMBAGIAN   : TWENTY / FOUR = FIVE
     """)
 
     word1 = st.text_input("Masukkan kata pertama:", value="SEND")
@@ -60,6 +60,7 @@ def main():
             st.write("Solusi ditemukan:")
             st.write(solution)
             st.write(f"{words_expr} = {result_value}")
+            st.balloons()
         else:
             st.write("Tidak ada solusi yang ditemukan.")
 
