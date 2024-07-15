@@ -24,6 +24,7 @@ hitungtekanan = st.button("Hitung Tekanan")
 if hitungtekanan:
     tekanan = rho * g * h
     st.write(f'Tekanan Hidrostatis = {tekanan:.2f} Pascal')
+    st.snow()
 
 st.title("⚙️ Tools Mencari kedalaman Tekanan Hidrostatis")
 st.write("Aku males ngitung")
@@ -36,6 +37,7 @@ hitungh = st.button("Hitung Kedalaman")
 if hitungh:
     tekanan = p / (kerapatan * g1)
     st.write(f'Kedalaman Fluida = {tekanan:.2f} ')
+    st.snow()
 
 
 st.sidebar.success("test")
