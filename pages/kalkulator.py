@@ -2,6 +2,12 @@ import streamlit as st
 
 def main():
     st.title("Kalkulator Dinamis")
+    st.write("""
+    + = Tambah
+    - = Kurang
+    * = Kali
+    / = Bagi
+    """)
 
     # Input ekspresi matematika
     expression = st.text_input("Masukkan ekspresi matematika:")
