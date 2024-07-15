@@ -42,6 +42,6 @@ st.set_page_config(
     page_icon="⚙️",
 )
 st.sidebar.success("test")
-st.title("pp")
+
 
 
