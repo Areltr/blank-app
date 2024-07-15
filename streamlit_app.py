@@ -40,7 +40,4 @@ if hitungh:
     st.snow()
 
 
-st.sidebar.success("test")
-
-
 
